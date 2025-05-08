@@ -6,17 +6,41 @@ This module provides simple arithmetic functions for calculations.
 
 
 def add(a: int, b: int) -> int:
-    """Return the sum of two integers."""
+    """Return the sum of two integers.
+    
+    Args:
+        a: First integer
+        b: Second integer
+        
+    Returns:
+        Sum of a and b
+    """
     return a + b
 
 
 def subtract(a: int, b: int) -> int:
-    """Return the difference between two integers."""
+    """Return the difference between two integers.
+    
+    Args:
+        a: First integer
+        b: Second integer
+        
+    Returns:
+        Difference between a and b
+    """
     return a - b
 
 
 def multiply(a: int, b: int) -> int:
-    """Return the product of two integers."""
+    """Return the product of two integers.
+    
+    Args:
+        a: First integer
+        b: Second integer
+        
+    Returns:
+        Product of a and b
+    """
     return a * b
 
 
@@ -34,4 +58,3 @@ def divide(a: int, b: int) -> float:
         ZeroDivisionError: If b is zero
     """
     return a / b
-
